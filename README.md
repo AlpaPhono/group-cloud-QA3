@@ -32,7 +32,7 @@ As part of our planning stage, a risk assessment was crutial to be carried out a
 
 Since this is a group project with a short time scale to complete it in, we decided to split the workload. We assigned each bit of work to the person who is most comfortable and also experienced in that  section. We  believed this was the best way to carry out our project as it would be the best time efficient out of the other options we had. We split up into two group where we each would focus on different aspects of the project. One group which is Ramtin and Ashley, would focus on containerising the front end and backend and getting it all up and running while the other pair, Saharsh and Kristaps, would focus on setting up jenkins and ansible, as well as a few other things. When one person is stuck in a difficult situation regarding their side of work, we would work and as a team and solve it together. We believe that, teamwork is very important in projects and we dedicate our time in making sure people are able to rely on their colleagues for assistance.
 
-## Architecture- talk about the app, how everything connects
+## Architecture
 
 The diagram below displays the process our app goes throught in order to be able to deploy a functioning app. It had a desription of what technology we used as well as what we used it for and what each bit of the project connects to another. To give a brief description of the layout, it works as followed:
 - Code is written on Visual Code studio. This could contain code for the app to function, testing or any files we need to make in order to be able to deploy.
