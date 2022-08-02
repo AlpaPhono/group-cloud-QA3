@@ -19,6 +19,7 @@ pipeline {
                 sh 'sudo apt install maven -y'
                 sh 'mvn test'
                 */
+                sh "chmod +x ./script/*"
                 sh 'echo "testing back end"'
                 sh './script/backtest.sh'
             }
