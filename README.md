@@ -64,7 +64,7 @@ As mentioned previously, testing is implemented into our jenkins file which will
 
 picture of testing results
 <p align= "centre">
-        <img width="600" height="300" src="images/jenkins.PNG">
+        <img width="600" height="300" src="images/test complete.PNG">
 
 ## Pricing
 
