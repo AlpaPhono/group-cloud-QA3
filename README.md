@@ -63,7 +63,7 @@ picture of jenkins pipeline
 As mentioned previously, testing is implemented into our jenkins file which will operate everytime a change is created. Testing is crutial as it would check that everything was functional and that there arent any errors in the code. We had tests made from each section of the backend and testing would be considered successful when the jenkins pipeline has succesfully gone past it without any failures occuring.
 
 <p align= "centre">
-        <img width="600" height="300" src="images/test.png">
+        <img width="480" height="300" src="images/test.png">
 
 ## Pricing
 
