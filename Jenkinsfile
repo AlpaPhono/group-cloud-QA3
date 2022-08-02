@@ -13,10 +13,14 @@ pipeline {
         }
         stage('Test') {
             steps {
+                /*
                 sh 'echo "testing back end"'
                 sh 'cd spring-petclinic-rest'
                 sh 'sudo apt install maven -y'
                 sh 'mvn test'
+                */
+                sh 'echo "testing back end"'
+                sh './script/backtest.sh'
             }
         }
        /* stage('Deploy') {
