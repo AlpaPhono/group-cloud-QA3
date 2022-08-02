@@ -44,7 +44,7 @@ The diagram below displays the process our app goes throught in order to be able
  As you can see, we have terraform in our diagram, when we created the diagram, our initial idea was to implement terraform into our deployment but after a couple days of discussion, we believed our best course of action was to skip it out since we were closing in on the end of our time scale.
 
 <p align= "centre">
-        <img width="600" height="300" src="new version.png/risk.PNG">
+        <img width="600" height="300" src="images/architecture.PNG">
 
 ## CI Pipeline
 
