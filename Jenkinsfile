@@ -24,10 +24,11 @@ pipeline {
                 sh './script/backtest.sh'
             }
         }
-       /* stage('Deploy') {
-            steps {
-                //
+       /* stage('Ansible Playbook run'){
+            steps{
+                sh "ansible-playbook -i ansible-config/inventory.yaml ansible-config/playbook1.yaml"
+            
             }
-        } */
+        } 
     }
 }
