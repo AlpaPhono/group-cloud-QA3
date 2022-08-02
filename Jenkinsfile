@@ -11,12 +11,15 @@ pipeline {
                 sh 'docker-compose build --parallel && docker-compose up -d && docker-compose push'
             }
         }
-        /*stage('Test') {
+        stage('Test') {
             steps {
-                //
+                sh 'echo "testing back end"'
+                sh 'cd spring-petclinic-rest'
+                sh 'sudo apt install maven -y'
+                sh 'mvn test'
             }
         }
-        stage('Deploy') {
+       /* stage('Deploy') {
             steps {
                 //
             }
