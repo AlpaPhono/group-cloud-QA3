@@ -48,14 +48,16 @@ The diagram below displays the process our app goes throught in order to be able
 
 ## CI Pipeline
 
-For our pipeline, we have decided to use Jenkins as we believe it is the best option for us since we have experience with this pipeline and also so we can talk advantage of the Jenkins File. Having a jenkins file is very beneficial as it creates the steps it has to take for the pipeline to function. We have 3 stages that will be functioning in the pipeline. Our first stage will be Building, which will containerise different parts of our app and would build so it can be used later on. Our second stage is testing which will run tests on our app to ensure that everything is functional and there aren't any errors. The final stage is deployment which is possibly the most important step, which will implement our ansible scripts and will deploy our containers to the website.
+For our pipeline, we have decided to use Jenkins as we believe it is the best option for us since we have experience with this pipeline and also so we can talk advantage of the Jenkins File. Having a jenkins file is very beneficial as it creates the steps it has to take for the pipeline to function. We have 3 stages that will be functioning in the pipeline. Our first stage will be Building, which will containerise different parts of our app and would build so it can be used later on. Our second stage is testing which will run tests on our app to ensure that everything is functional and there aren't any errors. The final stage is deployment which is possibly the most important step, which will implement our ansible scripts and will deploy our containers to the website. As you can see we tried to implement ansible but due to time restrictions and being one member short in the team, we werent able to complete this demand.
 
 <p align= "centre">
         <img width="600" height="300" src="images/ansibleJ.PNG">
 
-picture of jenkins pipeline
+
 <p align= "centre">
         <img width="600" height="300" src="images/jenkins.PNG">
+
+
 
 ## Testing  
 
@@ -66,12 +68,7 @@ As mentioned previously, testing is implemented into our jenkins file which will
 
 ## Pricing
 
-blah blah blah...
-
-picture of costs below...
-
-<p align= "centre">
-        <img width="600" height="300" src="images/jenkins.PNG">
+Due to not being able to complete the project as intended, we arent able to get an accurate cost of the project since we didnt implement a few instances that should of been included. 
 
 ## Conclusion
 
