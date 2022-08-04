@@ -1,2 +1,2 @@
-35.234.155.41 ansible_sudo_pass=password ansible_ssh_user=Kris
-35.246.15.37 ansible_sudo_pass=password ansible_ssh_user=Kris
+35.246.10.64 ansible_sudo_pass=password ansible_ssh_user=ramtin
+34.105.216.210 ansible_sudo_pass=password ansible_ssh_user=ramtin
