@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    options {
+        skipStagesAfterUnstable()
+    }
     environment{
        DOCKER_LOG = credentials('DOCKER_LOG')
     }
@@ -18,11 +21,19 @@ pipeline {
                 sh './script/backtest.sh'
             }
         }
-        stage('Ansible Playbook run'){
+        stage('Deploy'){
+            agent { label 'agent1'}
+            steps {
+                sh 'echo ------------------DEPLOY---------------------'
+                sh 'docker-compose up -d'
+            }
+
+        }
+        /*stage('Ansible Playbook run'){
             steps{
                 sh "ansible-playbook -i ansible-config/inventory.yaml ansible-config/playbook1.yaml"
             
             }
-        } 
+        } */
     }
 }
